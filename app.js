@@ -62,6 +62,8 @@ function showWheatherReport(wheather) {
     document.body.style.backgroundImage = "url('images/snow.jpg')";
   } else if (wheatherType.textContent == "Thunderstorm") {
     document.body.style.backgroundImage = "url('images/thunderstorm1.jpeg')";
+  }else if (wheatherType.textContent == "Haze") {
+    document.body.style.backgroundImage = "url('images/haze.jpg')";
   }
 }
 
